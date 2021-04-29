@@ -618,12 +618,15 @@ Board = {
 			love.graphics.draw(board.trail_mesh, (x-5.5)*sc, (10.5-y)*sc)
 		end
         
-        local r, g, b = unpack(board.edge_colour)
-		love.graphics.setColor(0.5+0.4*r, 0.5+0.4*g, 0.5+0.4*b, 1)
+		-- board colour scheme stuff
+        board.board_colour_scheme = {{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,138/255,0},{1,138/255,0},{1,138/255,0},{1,138/255,0},{1,138/255,0},{1,138/255,0},{1,138/255,0},{1,0,0},{1,0,0}}
 		for y = 1, board.max_y do
 			for x = 1, 10 do
 				if board.grid[x][y] then
 					-- love.graphics.rectangle("fill", (x-6)*sc, (10-y)*sc, sc, sc)
+					local r, g, b = unpack(board.edge_colour)
+					love.graphics.setColor(0.5+0.4*r, 0.5+0.4*g, 0.5+0.4*b, 1)
+					if y <= 20 then love.graphics.setColor(board.board_colour_scheme[y][1], board.board_colour_scheme[y][2], board.board_colour_scheme[y][3], 1) end -- for blocks below the top border
 					love.graphics.draw(board.block_mesh, (x-5.5)*sc, (10.5-y)*sc)
 				end
 			end
