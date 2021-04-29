@@ -115,7 +115,7 @@ Levels = {
 		{level_name = "MX", gravity = math.huge, lock_delay = 0.20, spawn_delay = 0.25, AS_delay = 0.1, BGM = 4},  --5.0PPS
 	},
 
-	{name = "Master", description = "Max gravity mode! Can you keep up with the high speeds?"
+	{name = "Master", description = "Max gravity mode! Can you keep up with the high speeds?",
 	 LV = "10L", prev = 5, hold = true, colour = {0.85,0.55,0.55,1},
 		{level_name = "M1", gravity = math.huge, lock_delay = 1000/1000, spawn_delay = 250/1000, AS_delay = 12/60},
 		{level_name = "M2", gravity = math.huge, lock_delay = 950/1000, spawn_delay = 240/1000, AS_delay = 12/60},
