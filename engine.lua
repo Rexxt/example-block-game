@@ -714,7 +714,12 @@ Board = {
 			for _, b in ipairs(piece.blocks[piece.orientation]) do
 				local x, y = b[1], b[2]
 				-- love.graphics.rectangle("fill", (x+8)*sc, (4*n-y-12)*sc, sc, sc)
-				love.graphics.draw(board.block_mesh, (x+8.5)*sc, (4*n-y-11.5)*sc)
+				if n < 7 then
+					love.graphics.draw(board.block_mesh, (x+8.5)*sc, (4*n-y-11.5)*sc)
+				else 
+					love.graphics.draw(board.block_mesh, (-5*(n-6.25)+x+11.5)*sc, (28-y-11.5)*sc)
+				end
+				-- love.graphics.draw(board.block_mesh, (x+8.5+(n-1))*sc, (4*n-y-11.5)*sc)
 			end
 		end
 		

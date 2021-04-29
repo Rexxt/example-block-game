@@ -373,13 +373,13 @@ function love.draw()
         
 		love.graphics.setColor(1, 1, 1)
         love.graphics.setFont(HUDFont)
-        love.graphics.printf("LEVEL", Width*0.75, Height*0.40, Width*0.2, "left")
-        love.graphics.printf("LINES", Width*0.75, Height*0.50, Width*0.2, "left")
-        love.graphics.printf("TIME ", Width*0.75, Height*0.60, Width*0.2, "left")
+		love.graphics.printf("LEVEL", Width*0.75, Height*0.40, Width*0.2, "left")
+        love.graphics.printf(Game.level_type == "10L" and "LINES" or "PROGRESS", Width*0.75, Height*0.50, Width*0.2, "left")
+        love.graphics.printf("TIME", Width*0.75, Height*0.60, Width*0.2, "left")
         
         love.graphics.setFont(MenuFont)
-        love.graphics.printf(Game.level_name,       Width*0.75, Height*0.425, Width*0.2, "right")
-        love.graphics.printf(Game.lines,            Width*0.75, Height*0.525, Width*0.2, "right")
+        love.graphics.printf(Game.level_name, Width*0.75, Height*0.425, Width*0.2, "right")
+        love.graphics.printf(Game.level_type == "10L" and (Game.lines .. "/" .. math.floor(Game.lines/10 + 1)*10) or (Game.level*100+Game.percentile-100 .. "/" .. math.floor((Game.level*100+Game.percentile-100)/100 + 1)*100), Width*0.75, Height*0.525, Width*0.2, "right")
         love.graphics.printf(FormatTime(Game.time), Width*0.75, Height*0.625, Width*0.2, "right")
         
         -- love.graphics.setColor(0.5, 0.5, 0.5)
