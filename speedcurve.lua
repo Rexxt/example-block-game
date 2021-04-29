@@ -58,9 +58,71 @@ Levels = {
 		{level_name = "19", gravity = 180, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
 		{level_name = "20", gravity = 300, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
     },
+
+	{name = "Expert", description = "The gravity starts fast, and goes even faster!",
+     LV = "10L", prev = 5, hold = true, colour = {189/255,52/255,235/255,1},
+		{level_name = "01", gravity = 50, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "02", gravity = 52, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "03", gravity = 54, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "04", gravity = 56, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "05", gravity = 58, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		
+		{level_name = "06", gravity = 60, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "07", gravity = 62, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "08", gravity = 64, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "09", gravity = 66, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		{level_name = "10", gravity = 68, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
+		
+		{level_name = "11", gravity = 70, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "12", gravity = 75, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "13", gravity = 80, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "14", gravity = 85, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "15", gravity = 90, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		
+		{level_name = "16", gravity = 95, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "17", gravity = 100, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "18", gravity = 120, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "19", gravity = 140, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+		{level_name = "20", gravity = 300, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 2},
+
+		{level_name = "X0", gravity = math.huge, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 3},
+		{level_name = "X1", gravity = math.huge, lock_delay = 1.9, spawn_delay = 0.4, AS_delay = 0.24, BGM = 3},
+		{level_name = "X2", gravity = math.huge, lock_delay = 1.9, spawn_delay = 0.4, AS_delay = 0.23, BGM = 3},
+		{level_name = "X3", gravity = math.huge, lock_delay = 1.8, spawn_delay = 0.4, AS_delay = 0.22, BGM = 3},
+		{level_name = "X4", gravity = math.huge, lock_delay = 1.8, spawn_delay = 0.4, AS_delay = 0.21, BGM = 3},
+
+		{level_name = "X5", gravity = math.huge, lock_delay = 1.7, spawn_delay = 0.3, AS_delay = 0.2, BGM = 3},
+		{level_name = "X6", gravity = math.huge, lock_delay = 1.7, spawn_delay = 0.3, AS_delay = 0.19, BGM = 3},
+		{level_name = "X7", gravity = math.huge, lock_delay = 1.6, spawn_delay = 0.3, AS_delay = 0.18, BGM = 3},
+		{level_name = "X8", gravity = math.huge, lock_delay = 1.5, spawn_delay = 0.3, AS_delay = 0.17, BGM = 3},
+		{level_name = "X9", gravity = math.huge, lock_delay = 1.45, spawn_delay = 0.3, AS_delay = 0.16, BGM = 3},
+
+		{level_name = "M0", gravity = math.huge, lock_delay = 1.4, spawn_delay = 0.2, AS_delay = 0.15, BGM = 4},
+		{level_name = "M1", gravity = math.huge, lock_delay = 1.3, spawn_delay = 0.2, AS_delay = 0.14, BGM = 4},
+		{level_name = "M2", gravity = math.huge, lock_delay = 1.2, spawn_delay = 0.2, AS_delay = 0.13, BGM = 4},
+		{level_name = "M3", gravity = math.huge, lock_delay = 1.1, spawn_delay = 0.2, AS_delay = 0.12, BGM = 4},
+		{level_name = "M4", gravity = math.huge, lock_delay = 1, spawn_delay = 0.1, AS_delay = 0.11, BGM = 4},
+
+		{level_name = "M5", gravity = math.huge, lock_delay = 1, spawn_delay = 0.1, AS_delay = 0.1, BGM = 4},
+		{level_name = "M6", gravity = math.huge, lock_delay = 0.99, spawn_delay = 0.1, AS_delay = 0.1, BGM = 4},
+		{level_name = "M7", gravity = math.huge, lock_delay = 0.98, spawn_delay = 0.1, AS_delay = 0.1, BGM = 4},
+		{level_name = "M8", gravity = math.huge, lock_delay = 0.97, spawn_delay = 0.1, AS_delay = 0.1, BGM = 4},
+		{level_name = "M9", gravity = math.huge, lock_delay = 0.96, spawn_delay = 0.1, AS_delay = 0.1, BGM = 4},
+
+		{level_name = "GM", gravity = math.huge, lock_delay = 0.95, spawn_delay = 0.1, AS_delay = 0.1, BGM = 4},
+    },
     
 	-- Original build speed curve
-	{name = "Original", description = "A 36-level mode covering a wide range of speeds",
+			--[[
+		{level_name = "Pb", gravity = math.huge, lock_delay = 0.45, spawn_delay = 0.25, AS_delay = 0.1},  --2.2PPS
+		{level_name = "Sn", gravity = math.huge, lock_delay = 0.40, spawn_delay = 0.25, AS_delay = 0.1},  --2.5PPS
+		{level_name = "Fe", gravity = math.huge, lock_delay = 0.35, spawn_delay = 0.25, AS_delay = 0.1},  --2.9PPS
+		{level_name = "Cu", gravity = math.huge, lock_delay = 0.30, spawn_delay = 0.25, AS_delay = 0.1},  --3.3PPS
+		{level_name = "Ag", gravity = math.huge, lock_delay = 0.25, spawn_delay = 0.25, AS_delay = 0.1},  --4.0PPS
+															  
+		{level_name = "Au", gravity = math.huge, lock_delay = 0.20, spawn_delay = 0.25, AS_delay = 0.1},  --5.0PPS
+		]]
+	--[[{name = "Original", description = "A 36-level mode covering a wide range of speeds",
      LV = "10L", prev = 5, hold = true, colour = {0.90,0.75,1.00,1},
 		{level_name = "01", gravity = 1.0, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
 		{level_name = "02", gravity = 1.1, lock_delay = 2, spawn_delay = 0.5, AS_delay = 0.25, BGM = 1},
@@ -97,15 +159,7 @@ Levels = {
 		{level_name = "X7", gravity = math.huge, lock_delay = 0.75, spawn_delay = 0.5, AS_delay = 0.15, BGM = 3},  --1.3PPS
 		{level_name = "X8", gravity = math.huge, lock_delay = 0.67, spawn_delay = 0.5, AS_delay = 0.15, BGM = 3},  --1.5PPS
 		{level_name = "X9", gravity = math.huge, lock_delay = 0.50, spawn_delay = 0.5, AS_delay = 0.15, BGM = 3},  --2.0PPS
-		--[[
-		{level_name = "Pb", gravity = math.huge, lock_delay = 0.45, spawn_delay = 0.25, AS_delay = 0.1},  --2.2PPS
-		{level_name = "Sn", gravity = math.huge, lock_delay = 0.40, spawn_delay = 0.25, AS_delay = 0.1},  --2.5PPS
-		{level_name = "Fe", gravity = math.huge, lock_delay = 0.35, spawn_delay = 0.25, AS_delay = 0.1},  --2.9PPS
-		{level_name = "Cu", gravity = math.huge, lock_delay = 0.30, spawn_delay = 0.25, AS_delay = 0.1},  --3.3PPS
-		{level_name = "Ag", gravity = math.huge, lock_delay = 0.25, spawn_delay = 0.25, AS_delay = 0.1},  --4.0PPS
-															  
-		{level_name = "Au", gravity = math.huge, lock_delay = 0.20, spawn_delay = 0.25, AS_delay = 0.1},  --5.0PPS
-		]]
+
 		{level_name = "M1", gravity = math.huge, lock_delay = 0.45, spawn_delay = 0.25, AS_delay = 0.1, BGM = 4},  --2.2PPS
 		{level_name = "M2", gravity = math.huge, lock_delay = 0.40, spawn_delay = 0.25, AS_delay = 0.1, BGM = 4},  --2.5PPS
 		{level_name = "M3", gravity = math.huge, lock_delay = 0.35, spawn_delay = 0.25, AS_delay = 0.1, BGM = 4},  --2.9PPS
@@ -113,7 +167,9 @@ Levels = {
 		{level_name = "M5", gravity = math.huge, lock_delay = 0.25, spawn_delay = 0.25, AS_delay = 0.1, BGM = 4},  --4.0PPS
 		
 		{level_name = "MX", gravity = math.huge, lock_delay = 0.20, spawn_delay = 0.25, AS_delay = 0.1, BGM = 4},  --5.0PPS
-	},
+	},]]
+
+	
 
 	{name = "Master", description = "Max gravity mode! Can you keep up with the high speeds?",
 	 LV = "10L", prev = 5, hold = true, colour = {0.85,0.55,0.55,1},
@@ -126,6 +182,7 @@ Levels = {
 		{level_name = "M7", gravity = math.huge, lock_delay = 780/1000, spawn_delay = 190/1000, AS_delay = 08/60, BGM = 2},
 		{level_name = "M8", gravity = math.huge, lock_delay = 750/1000, spawn_delay = 180/1000, AS_delay = 08/60, BGM = 2},
 		{level_name = "M9", gravity = math.huge, lock_delay = 720/1000, spawn_delay = 170/1000, AS_delay = 08/60, BGM = 2},
+
 		{level_name = "S1", gravity = math.huge, lock_delay = 700/1000, spawn_delay = 160/1000, AS_delay = 07/60, BGM = 2},
 		{level_name = "S2", gravity = math.huge, lock_delay = 650/1000, spawn_delay = 150/1000, AS_delay = 07/60, BGM = 2},
 		{level_name = "S3", gravity = math.huge, lock_delay = 625/1000, spawn_delay = 140/1000, AS_delay = 07/60, BGM = 2},
@@ -137,6 +194,7 @@ Levels = {
 		{level_name = "S7", gravity = math.huge, lock_delay = 550/1000, spawn_delay = 130/1000, AS_delay = 07/60, BGM = 2},
 		{level_name = "S8", gravity = math.huge, lock_delay = 540/1000, spawn_delay = 125/1000, AS_delay = 07/60, BGM = 2},
 		{level_name = "S9", gravity = math.huge, lock_delay = 525/1000, spawn_delay = 120/1000, AS_delay = 07/60, BGM = 2},
+
 		{level_name = "X1", gravity = math.huge, lock_delay = 500/1000, spawn_delay = 100/1000, AS_delay = 07/60, BGM = 3},
 		{level_name = "X2", gravity = math.huge, lock_delay = 490/1000, spawn_delay = 100/1000, AS_delay = 07/60, BGM = 3},
 		{level_name = "X3", gravity = math.huge, lock_delay = 480/1000, spawn_delay = 100/1000, AS_delay = 07/60, BGM = 3},
@@ -146,19 +204,23 @@ Levels = {
 		{level_name = "X7", gravity = math.huge, lock_delay = 425/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
 		{level_name = "X8", gravity = math.huge, lock_delay = 400/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
 		{level_name = "X9", gravity = math.huge, lock_delay = 375/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
+
 		{level_name = "XD", gravity = math.huge, lock_delay = 350/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
 		{level_name = "XC", gravity = math.huge, lock_delay = 325/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
 		{level_name = "XB", gravity = math.huge, lock_delay = 300/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
 		{level_name = "XA", gravity = math.huge, lock_delay = 280/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
 		{level_name = "XS", gravity = math.huge, lock_delay = 220/1000, spawn_delay = 90/1000, AS_delay = 06/60, BGM = 3},
+
 		{level_name = "U1", gravity = math.huge, lock_delay = 200/1000, spawn_delay = 70/1000, AS_delay = 06/60, BGM = 4},
 		{level_name = "U2", gravity = math.huge, lock_delay = 190/1000, spawn_delay = 70/1000, AS_delay = 06/60, BGM = 4},
 		{level_name = "U3", gravity = math.huge, lock_delay = 180/1000, spawn_delay = 70/1000, AS_delay = 06/60, BGM = 4},
 		{level_name = "U4", gravity = math.huge, lock_delay = 170/1000, spawn_delay = 60/1000, AS_delay = 06/60, BGM = 4},
 		{level_name = "U5", gravity = math.huge, lock_delay = 160/1000, spawn_delay = 50/1000, AS_delay = 06/60, BGM = 4},
+
 		{level_name = "Master ()....", gravity = math.huge, lock_delay = 150/1000, spawn_delay = 50/1000, AS_delay = 06/60, BGM = 4},
 		{level_name = "Master --()..", gravity = math.huge, lock_delay = 150/1000, spawn_delay = 50/1000, AS_delay = 06/60, BGM = 4},
 		{level_name = "Master ----()", gravity = math.huge, lock_delay = 150/1000, spawn_delay = 50/1000, AS_delay = 06/60, BGM = 4},
+
 		{level_name = "Grandmaster", gravity = math.huge, lock_delay = 100/1000, spawn_delay = 40/1000, AS_delay = 06/60, BGM = 4},
 	},
     
