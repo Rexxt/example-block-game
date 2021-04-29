@@ -8,10 +8,15 @@ Simple modification of Oshisaure's "example block game" engine
 Powered by [Lua](https://www.lua.org/about.html) and [Love2D](https://love2d.org/)
 
 ### ok cool how do I play
+#### method 1
 First, get [Love2D v11.3](https://github.com/love2d/love/releases/tag/11.3) and install it.  
 Next, download this repository as a zip file (click on the green Code button then click Download ZIP) and change the extension from `.zip` to `.love`.  
 You should be able to double-click the `.love` file and it should open with Love2D.  
 Then you can go setup your controls and have fun with the game hopefully.  
+#### method 2
+First, get [Love2D v11.3](https://github.com/love2d/love/releases/tag/11.3) and install it. Make sure that the `love .` command works.
+Then, download this repository and double-click on `run.bat`
+Then you can go setup your controls and have fun with the game hopefully.
 
 ### do you mind if I mod this?
 No, this is open source for a reason. Go ahead and fork this to your heart's contents, as long as you keep in mind the license.  
