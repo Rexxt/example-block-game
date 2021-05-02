@@ -18,8 +18,8 @@
 
 function love.conf(t)
 	t.identity = "example block game"
-	t.window.width = 960
-	t.window.height = 720
+	t.window.width = 960 -- 960
+	t.window.height = 720 -- 720
 	t.window.vsync = false
 	t.window.title = "EXAMPLE BLOCK GAME"
 end
